@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formuláře</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+    <h1 class="text-center sixem jumbotron fixed-top">Výpočet obvodu/obsahu u obdélníku</h1>
+    <div class="container text-center twoem row">
+        <div class="col-sm-3">
+
+        </div>
+        <div class="form-group col-sm-6 justify-content-center">
+          <label for="obdelnik">Zadej stranu a obdélníku (cm):</label>
+          <input type="text" class="form-control" name="stranaA" id="strA" aria-describedby="helpId" placeholder="">
+          <label for="obdelnik">Zadej stranu b obdélníku (cm):</label>
+          <input type="text" class="form-control" name="stranaB" id="strB" aria-describedby="helpId" placeholder="">
+            <label for="coChci">Chci vypočítat:</label>
+            <select class="form-control" name="vypocet" id="opt">
+              <option value = "1"> Obvod</option>
+              <option value = "2"> Obsah</option>
+            </select>
+            <button type="button" class="btn btn-success" style="margin-top: 2%;" id="vyp">Vypočítej</button>
+        </div>
+        <div class="col-sm-3">
+        </div>
+    </div>
+    <div class="container">
+        <div id="vypis" class="ml-5">¨
+
+        </div>
+    </div>
+    <footer class="footer paddingX bg-black text-wh text-center">
+        Benjamin Fréhar, 2020
+    </footer>
+    </div>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
