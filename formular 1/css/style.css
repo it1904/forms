@@ -1,0 +1,24 @@
+.sixem{
+    font-size: 6em;
+}
+.twoem{
+    font-size: 1.5em;
+}
+.onethreeem{
+    font-size: 1.3em;
+}
+.fixed.top{
+    position: fixed top;
+    top:0 !important; 
+}
+.footer{
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    background-color: lightgray;
+}
+.pismoVelke{
+    font-size: 60px;
+}
